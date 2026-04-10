@@ -4,20 +4,14 @@
 
 この repo 単体では起動できません。`gemma` repo と同じ親ディレクトリに配置してください。
 
+2026-04-10 に `git archive --format=zip` で確認した ZIP サイズは `458,494,651 bytes` で、`500MB` 未満です。
+
 GitHub ZIP の場合:
 
 ```text
 /opt/offline/
   gemma-main/
   gemma-2-main/
-```
-
-clone の場合:
-
-```text
-/opt/offline/
-  gemma/
-  gemma-2/
 ```
 
 含まれるもの:
